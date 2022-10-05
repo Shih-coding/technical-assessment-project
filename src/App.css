@@ -1,0 +1,46 @@
+.App container{
+  margin:100px 160px;
+}
+.App img {
+position: relative;
+width: 440px;
+height: 775.69px;
+
+}
+
+.App h1 {
+  position:absolute;
+width: 570px;
+height: 192px;
+left: 0px;
+top: 0px;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+/* or 100% */
+
+text-align: right;
+color: #240D57;
+
+}
+
+.snapchat {
+  background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+}
+
+.App h2 {
+position: absolute;
+font-family: 'Helvetica';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+color: #4F4F4F;
+
+}

@@ -1,19 +1,18 @@
-.App container{
-  margin:100px 160px;
+.App {
+  margin:50px 100px;
 }
 .App img {
 position: relative;
 width: 440px;
-height: 775.69px;
-
+height: auto;
 }
 
 .App h1 {
   position:absolute;
 width: 570px;
 height: 192px;
-left: 0px;
-top: 0px;
+left: 500px;
+top: 200px;
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 700;
@@ -34,12 +33,15 @@ background-clip: text;
 }
 
 .App h2 {
-position: absolute;
+  position: absolute;
+  top: 420px;
+  left: 550px;
+  width: 521px;
+height: 56px;
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 300;
 font-size: 24px;
-line-height: 28px;
 text-align: right;
 color: #4F4F4F;
 

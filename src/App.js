@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css"
+import Button from "./components/Button"
 
 export default function App() {
   return (
@@ -13,18 +14,17 @@ export default function App() {
             />
           </div>
           <div className="col-6">
-            <div className="main-text">
-            <h1>
-              Imagine if <span className="snapchat">Snapchat</span> had events
-            </h1>
-            <h2>
-              Easily host and share events with your friends across any social
-              media.
+              <h1>
+                Imagine if <span className="snapchat">Snapchat</span> had
+                events.
+              </h1>
+              <h2>
+                Easily host and share events with your friends across any social
+                media.
               </h2>
-              </div>
+            <Button />
           </div>
         </div>
-
       </div>
     </div>
   );

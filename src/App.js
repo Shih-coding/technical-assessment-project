@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css"
-import Button from "./components/Button"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function App() {
   return (
@@ -22,7 +22,7 @@ export default function App() {
                 Easily host and share events with your friends across any social
                 media.
               </h2>
-            <Button />
+  <button className="button">🎉 Create my event</button>
           </div>
         </div>
       </div>

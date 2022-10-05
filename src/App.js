@@ -7,13 +7,13 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="row">
-          <div className="col-6">
+          <div className="col-sm-6">
             <img
               className="img-fluid"
               src={require("./assets/event-img.png")}
             />
           </div>
-          <div className="main-text col-6">
+          <div className="main-text col-sm-6">
             <h1>
               Imagine if <span className="snapchat">Snapchat</span> had events.
             </h1>

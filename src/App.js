@@ -13,16 +13,17 @@ export default function App() {
               src={require("./assets/event-img.png")}
             />
           </div>
-          <div className="col-6">
-              <h1>
-                Imagine if <span className="snapchat">Snapchat</span> had
-                events.
-              </h1>
-              <h2>
-                Easily host and share events with your friends across any social
-                media.
-              </h2>
-  <button className="button">🎉 Create my event</button>
+          <div className="main-text col-6">
+            <h1>
+              Imagine if <span className="snapchat">Snapchat</span> had events.
+            </h1>
+            <h2>
+              Easily host and share events with your friends across any social
+              media.
+            </h2>
+            <button type="button" class="button btn btn-primary">
+              🎉 Create my event
+            </button>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 .App {
-  margin:50px 100px;
+  background-color: #F6F2FF;
 }
 .App img {
 position: relative;
@@ -8,11 +8,6 @@ height: auto;
 }
 
 .App h1 {
-  position:absolute;
-width: 570px;
-height: 192px;
-left: 500px;
-top: 200px;
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 700;
@@ -33,11 +28,6 @@ background-clip: text;
 }
 
 .App h2 {
-  position: absolute;
-  top: 420px;
-  left: 550px;
-  width: 521px;
-height: 56px;
 font-family: 'Helvetica';
 font-style: normal;
 font-weight: 300;
@@ -45,4 +35,16 @@ font-size: 24px;
 text-align: right;
 color: #4F4F4F;
 
+}
+
+.main-text {
+  position: relative;
+  top: 200px;
+}
+
+.button {
+background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%) !important;
+border-radius: 10px;
+position: relative;
+left: 350px;
 }
